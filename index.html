@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Vertical Side Bar</title>
+  </head>
+  <body>
+<div id="bar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://atom.io/packages">Packages</a>
+  <a href="https://atom.io/themes">Themes</a>
+  <a href="https://atom.io/docs">Documentation</a>
+  <a href="http://blog.atom.io/">Blog</a>
+  <a href="https://discuss.atom.io/">Discuss</a>
+  <a href="https://github.com/login/oauth/authorize?response_type=code&client_id=e2c0e43b4a123468e341&redirect_uri=https%3A%2F%2Fatom.io%2Fauth%2Fgithub%2Fcallback&state=df81f1e4da0600d8674605154bbffab8a9839fe201aad3d5&scope=read%3Aorg">Sigh in</a>
+  <a href="https://github.com/">GitHub</a>
+</div>
+<div class="window">
+<i id="tripaloski" class="fa fa-bars" aria-hidden="true"; onclick="openNav()"></i>
+</div>
+<script>
+function openNav() {
+document.getElementById("bar").style.width = "300px";
+}
+function closeNav() {
+document.getElementById("bar").style.width = "0";
+}
+</script>
+
+  </body>
+</html>

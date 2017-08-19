@@ -1,0 +1,42 @@
+body{
+  font-family: 'Raleway', Semi-Bold;
+}
+.sidebar{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 49px;
+  margin-left: 50px;
+}
+.sidebar a{
+  padding: 10px 10px 10px 40px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+  display: block;
+  transition: 0.3s;
+}
+#tripaloski{
+  color: #f4f4f4;
+  padding-left: 5px;
+  font-size: 30px;
+}
+.window{
+  position: fixed;
+  height: 100%;
+  width: 38px;
+  background-color: #111;
+  left: 0;
+  top: 0;
+  }
